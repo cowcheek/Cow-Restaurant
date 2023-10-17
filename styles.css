@@ -1,0 +1,41 @@
+body {
+  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+  background-attachment: local;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Archivo;
+  color: rgb(249, 122, 122);
+  margin:10px;
+}
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+main {
+    padding: 100px;
+    background-color: rgba(0,0,0,0.7);
+    margin:150px auto;
+    border-radius: 15px;
+    width:500px;
+    text-align: center;
+}
+
+a {
+    background-color: rgb(249, 122, 122);
+    border-radius: 5px;
+    margin: 150px 200px ;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    
+}

@@ -1,0 +1,40 @@
+.image-text {
+  display: inline-block;
+  text-align: center;
+  margin-right: 80px;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-family: sans-serif;
+  text-decoration: none;
+
+}
+.image-text img {
+  width: 200px;
+  border-radius: 100px;
+  transition: transform 0.3s; 
+}
+
+main {
+  background-color: rgba(249, 122, 122, 0.7);
+  height: 280px;
+  margin: 60px 0;
+}
+h1 {
+  font-size: 50px;
+  font-family: Archivo;
+  color: white;
+  text-align: left;
+  margin-top: 150px;
+}
+
+.image-text img:hover {
+    transform: scale(1.1); 
+    cursor:pointer
+}
+
+body {
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
